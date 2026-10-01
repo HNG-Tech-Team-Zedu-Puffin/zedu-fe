@@ -58,6 +58,11 @@ const contributors = [
     githubUsername: "Kimprudy",
   },
   {
+    name: "Theophilus Taiwo Ajibade",
+    zeduUsername: "ajibade theophilus",
+    githubUsername: "Theophilus09",
+  },
+  {
     name: "Emmanuel Kalu",
     zeduUsername: "Emmanuel Kalu",
     githubUsername: "emmanuelkalu769-ctrl",
@@ -93,8 +98,43 @@ const contributors = [
     githubUsername: "SoloJacBen",
   },
   {
+    name: "Daniel Akor",
+    zeduUsername: "Danielakor",
+    githubUsername: "hilzagu",
+  },
+  {
+    name: "Ejiro Osakede",
+    zeduUsername: "Energeticej",
+    githubUsername: "ejiskede-web",
+  },
+  {
+    name: "Clifford Ezekiel",
+    zeduUsername: "Bishop Clifford(icefix)",
+    githubUsername: "Bishopice1",
+  },
+  {
+    name: "Isah Muhammad Alhaji",
+    zeduUsername: "Isah Muhammad (MxDev)",
+    githubUsername: "EdogiStar",
+  },
+  {
+    name: "Amaka Nwokedike",
+    zeduUsername: "amaka nwokedike",
+    githubUsername: "peacella",
+  },
+  {
+    name: "Ciary Ben Alok",
+    zeduUsername: "Ciaryben623",
+    githubUsername: "Ben-Ciary",
+  },
+  {
+    name: "Oreoluwa Akintaju",
+    zeduUsername: "oreoluwa akintaju",
+    githubUsername: "Oreoluwa03",
+  },
+  {
     name: "Ayo Richard ABE [gODtECH]",
-    zeduUsername: "gODtECH",
+    zeduUsername: "keizad hadarac",
     githubUsername: "gODtECH-Ctl-Create",
   },
 ];
