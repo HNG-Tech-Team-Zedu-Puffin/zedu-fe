@@ -13,8 +13,6 @@ jobs:
     env:
       CI: true
 
-    if: github.event.repository.fork == false
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
