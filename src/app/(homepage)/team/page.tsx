@@ -17,30 +17,122 @@ const githubBaseUrl =
   ["https", "github.com"].join("://");
 
 const contributors = [
-  { name: "Muhammad Rayan Tahir", zeduUsername: "muhammad rayan tahir", githubUsername: "mrayan980" },
-  { name: "Oluwalayomi Esther Olayinka", zeduUsername: "oluwalayomiolayinka0", githubUsername: "Oluwalayomi-9082" },
-  { name: "Onyema Chimaobi Victor", zeduUsername: "Chimaobi Victor", githubUsername: "chimaobidamian-alt" },
-  { name: "Rhoda Omoyeni", zeduUsername: "Rhoda Omoyeni", githubUsername: "Orooba-96" },
-  { name: "Sarah Nwakpa", zeduUsername: "cyber_sarah", githubUsername: "AssistBySarah" },
-  { name: "Godscovenant Patrick Udofe", zeduUsername: "Godscovenant Patrick Udofe", githubUsername: "covenantudofe-creator" },
-  { name: "Oyelabi Oluwatimileyin", zeduUsername: "tim oyelabi", githubUsername: "OTimileyin" },
+  {
+    name: "Muhammad Rayan Tahir",
+    zeduUsername: "muhammad rayan tahir",
+    githubUsername: "mrayan980",
+  },
+  {
+    name: "Oluwalayomi Esther Olayinka",
+    zeduUsername: "oluwalayomiolayinka0",
+    githubUsername: "Oluwalayomi-9082",
+  },
+  {
+    name: "Onyema Chimaobi Victor",
+    zeduUsername: "Chimaobi Victor",
+    githubUsername: "chimaobidamian-alt",
+  },
+  {
+    name: "Rhoda Omoyeni",
+    zeduUsername: "Rhoda Omoyeni",
+    githubUsername: "Orooba-96",
+  },
+  {
+    name: "Sarah Nwakpa",
+    zeduUsername: "cyber_sarah",
+    githubUsername: "AssistBySarah",
+  },
+  {
+    name: "Godscovenant Patrick Udofe",
+    zeduUsername: "Godscovenant Patrick Udofe",
+    githubUsername: "covenantudofe-creator",
+  },
+  {
+    name: "Oyelabi Oluwatimileyin",
+    zeduUsername: "tim oyelabi",
+    githubUsername: "OTimileyin",
+  },
   { name: "Okim Glory", zeduUsername: "OkimGlory", githubUsername: "Kimprudy" },
-  { name: "Theophilus Taiwo Ajibade", zeduUsername: "ajibade theophilus", githubUsername: "Theophilus09" },
-  { name: "Emmanuel Kalu", zeduUsername: "Emmanuel Kalu", githubUsername: "emmanuelkalu769-ctrl" },
-  { name: "Aladesuru Victor", zeduUsername: "Aladesuru victor", githubUsername: "victor010-av" },
-  { name: "Olukunle Oluseyi Amos", zeduUsername: "Olukunle oluwaseyiamos", githubUsername: "oluseyi1102" },
-  { name: "Babatunde Sodiq Yusuf", zeduUsername: "Asodiq001", githubUsername: "asodiq001" },
-  { name: "Daniel Victor Bello", zeduUsername: "danielldvicc@gmail.com", githubUsername: "dbellz" },
-  { name: "Charles Ahuose Misheal", zeduUsername: "Charles Misheal", githubUsername: "CharlesMisheal" },
-  { name: "Solomon Jacob Abbah", zeduUsername: "Solomon Abbah", githubUsername: "SoloJacBen" },
-  { name: "Daniel Akor", zeduUsername: "Danielakor", githubUsername: "hilzagu" },
-  { name: "Ejiro Osakede", zeduUsername: "Energeticej", githubUsername: "ejiskede-web" },
-  { name: "Clifford Ezekiel", zeduUsername: "Bishop Clifford(icefix)", githubUsername: "Bishopice1" },
-  { name: "Isah Muhammad Alhaji", zeduUsername: "Isah Muhammad (MxDev)", githubUsername: "EdogiStar" },
-  { name: "Amaka Nwokedike", zeduUsername: "amaka nwokedike", githubUsername: "peacella" },
-  { name: "Ciary Ben Alok", zeduUsername: "Ciaryben623", githubUsername: "Ben-Ciary" },
-  { name: "Oreoluwa Akintaju", zeduUsername: "oreoluwa akintaju", githubUsername: "Oreoluwa03" },
-  { name: "Ayo Richard ABE [gODtECH]", zeduUsername: "keizad hadarac", githubUsername: "gODtECH-Ctl-Create" },
+  {
+    name: "Theophilus Taiwo Ajibade",
+    zeduUsername: "ajibade theophilus",
+    githubUsername: "Theophilus09",
+  },
+  {
+    name: "Emmanuel Kalu",
+    zeduUsername: "Emmanuel Kalu",
+    githubUsername: "emmanuelkalu769-ctrl",
+  },
+  {
+    name: "Aladesuru Victor",
+    zeduUsername: "Aladesuru victor",
+    githubUsername: "victor010-av",
+  },
+  {
+    name: "Olukunle Oluseyi Amos",
+    zeduUsername: "Olukunle oluwaseyiamos",
+    githubUsername: "oluseyi1102",
+  },
+  {
+    name: "Babatunde Sodiq Yusuf",
+    zeduUsername: "Asodiq001",
+    githubUsername: "asodiq001",
+  },
+  {
+    name: "Daniel Victor Bello",
+    zeduUsername: "danielldvicc@gmail.com",
+    githubUsername: "dbellz",
+  },
+  {
+    name: "Charles Ahuose Misheal",
+    zeduUsername: "Charles Misheal",
+    githubUsername: "CharlesMisheal",
+  },
+  {
+    name: "Solomon Jacob Abbah",
+    zeduUsername: "Solomon Abbah",
+    githubUsername: "SoloJacBen",
+  },
+  {
+    name: "Daniel Akor",
+    zeduUsername: "Danielakor",
+    githubUsername: "hilzagu",
+  },
+  {
+    name: "Ejiro Osakede",
+    zeduUsername: "Energeticej",
+    githubUsername: "ejiskede-web",
+  },
+  {
+    name: "Clifford Ezekiel",
+    zeduUsername: "Bishop Clifford(icefix)",
+    githubUsername: "Bishopice1",
+  },
+  {
+    name: "Isah Muhammad Alhaji",
+    zeduUsername: "Isah Muhammad (MxDev)",
+    githubUsername: "EdogiStar",
+  },
+  {
+    name: "Amaka Nwokedike",
+    zeduUsername: "amaka nwokedike",
+    githubUsername: "peacella",
+  },
+  {
+    name: "Ciary Ben Alok",
+    zeduUsername: "Ciaryben623",
+    githubUsername: "Ben-Ciary",
+  },
+  {
+    name: "Oreoluwa Akintaju",
+    zeduUsername: "oreoluwa akintaju",
+    githubUsername: "Oreoluwa03",
+  },
+  {
+    name: "Ayo Richard ABE [gODtECH]",
+    zeduUsername: "keizad hadarac",
+    githubUsername: "gODtECH-Ctl-Create",
+  },
 ];
 
 const TeamPage = () => (
@@ -61,10 +153,10 @@ const TeamPage = () => (
             className="flex h-full items-center justify-between gap-4 rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm transition-all duration-200 hover:-translate-y-1 hover:shadow-md"
           >
             <div className="min-w-0">
-              <h2 className="truncate text-base font-semibold text-neutral-900">
+              <h2 className="break-words text-base font-semibold leading-snug text-neutral-900">
                 {contributor.name}
               </h2>
-              <p className="mt-1 truncate text-sm text-neutral-500">
+              <p className="mt-1 break-words text-sm text-neutral-500">
                 @{contributor.zeduUsername}
               </p>
             </div>
