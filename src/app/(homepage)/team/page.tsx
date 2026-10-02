@@ -80,7 +80,7 @@ const contributors = [
   },
   {
     name: "Daniel Victor Bello",
-    zeduUsername: "danielldvicc@gmail.com",
+    zeduUsername: "danielldvicc",
     githubUsername: "dbellz",
   },
   {
