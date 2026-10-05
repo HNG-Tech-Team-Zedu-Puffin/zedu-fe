@@ -1,14 +1,14 @@
 import { Metadata } from "next";
 import { Github } from "lucide-react";
 
-import { DynamicFooter } from "../_components/footer/dynamic-footer";
+import { DynamicFooter } from "../../_components/footer/dynamic-footer";
 
 export const metadata: Metadata = {
-  title: "Team",
+  title: "Zedu Puffin Contributors",
   description:
-    "Meet the contributors building Zedu, an AI-powered learning and collaboration platform.",
+    "Meet the contributors building Zedu as part of the Zedu Puffin team.",
   alternates: {
-    canonical: "/team",
+    canonical: "/contributors/zedu-puffin",
   },
 };
 
@@ -140,7 +140,7 @@ const TeamPage = () => (
     <section className="px-4 py-16 text-center sm:px-8 sm:py-20 lg:px-12">
       <div className="mx-auto max-w-3xl">
         <h1 className="text-3xl font-semibold leading-tight text-neutral-900 sm:text-5xl">
-          Meet the <span className="text-primary-500">Team</span>
+          Meet <span className="text-primary-500">Zedu Puffin</span>
         </h1>
       </div>
     </section>
