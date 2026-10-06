@@ -52,10 +52,12 @@ const contributors = [
     zeduUsername: "tim oyelabi",
     githubUsername: "OTimileyin",
   },
-  { name: "Okim Glory", zeduUsername: "OkimGlory", githubUsername: "Kimprudy" },
+  { name: "Okim Glory", 
+    zeduUsername: "OkimGlory", 
+    githubUsername: "Kimprudy" },
   {
     name: "Theophilus Taiwo Ajibade",
-    zeduUsername: "ajibade theophilus",
+    zeduUsername: "ajibade theo",
     githubUsername: "Theophilus09",
   },
   {
